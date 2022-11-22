@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyTest" time="0.024" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\spkud\OneDrive\Desktop\Software Design\Projects\Project2\Keno\target\test-classes;C:\Users\spkud\OneDrive\Desktop\Software Design\Projects\Project2\Keno\target\classes;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\spkud\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\spkud\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\spkud\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1-win.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1-win.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1-win.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12-win.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\spkud\AppData\Local\Temp\surefire9782237417995110646\surefirebooter5151882403930379423.jar C:\Users\spkud\AppData\Local\Temp\surefire9782237417995110646 2022-03-13T23-05-21_874-jvmRun1 surefire7847496631881282528tmp surefire_08857111489093721078tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\spkud\OneDrive\Desktop\Software Design\Projects\Project2\Keno\target\test-classes;C:\Users\spkud\OneDrive\Desktop\Software Design\Projects\Project2\Keno\target\classes;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\spkud\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\spkud\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\spkud\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\spkud\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-controls\12.0.1\javafx-controls-12.0.1-win.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-graphics\12.0.1\javafx-graphics-12.0.1-win.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-base\12.0.1\javafx-base-12.0.1-win.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12.jar;C:\Users\spkud\.m2\repository\org\openjfx\javafx-fxml\12\javafx-fxml-12-win.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\spkud"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\spkud\OneDrive\Desktop\Software Design\Projects\Project2\Keno"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\spkud\AppData\Local\Temp\surefire9782237417995110646\surefirebooter5151882403930379423.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="spkud"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\spkud\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\spkud\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\Users\spkud\OneDrive\Desktop\Software Design\Projects\Project2\Keno"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.13/bin/server;C:/Program Files/Java/jdk-11.0.13/bin;C:\MinGW\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Users\spkud\AppData\Local\Microsoft\WindowsApps;C:\Users\spkud\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\spkud\AppData\Local\GitHubDesktop\bin;C:\Users\spkud\.dotnet\tools;C:\Users\spkud\OneDrive\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="calcWinningsFourSpotZeroMatchesTest" classname="MyTest" time="0.012"/>
+  <testcase name="drawNums1OrAbove" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsEightSpotSixMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="draw20NumsTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsTenSpotSevenMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsOneSpotZeroMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsEightSpotEightMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsFourSpotTwoMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinnings10SpotOtherMatchesTest" classname="MyTest" time="0.001"/>
+  <testcase name="calcWinningsEightSpotSevenMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsFourSpotThreeMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsTenSpotFiveMatchesTest" classname="MyTest" time="0.001"/>
+  <testcase name="calcWinningsEightSpotFourMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsOtherSpotOtherMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsTenSpotZeroMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsOneSpotOneMatchTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsFourSpotFourMatchesTest" classname="MyTest" time="0.001"/>
+  <testcase name="calcWinningsTenSpotTenMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsEightSpotFiveMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="drawNums80OrUnder" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsTenSpotNineMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsTenSpotSixMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="calcWinningsEightSpotZeroMatchesTest" classname="MyTest" time="0"/>
+  <testcase name="draw20NoDuplicatesTest" classname="MyTest" time="0.001"/>
+  <testcase name="calcWinningsTenSpotEightMatchesTest" classname="MyTest" time="0"/>
+</testsuite>
